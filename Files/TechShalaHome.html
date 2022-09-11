@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TechShala</title>
+    <!--- ************************************************ Java Script *******************************************************************************-->
+    <script>
+        function foo() {
+            alert("Search Request Sent");
+            return true;
+        }
+
+    </script>
+
+
+    <!--- ************************************************ Java Script *******************************************************************************-->
+
+
+    <!--- ***************************************************** CSS ********************************************************************************** --->
+    <style>
+        body{
+            margin:0px;
+        }
+        .header{
+            position: sticky;
+            top: 0;
+        }
+        header {
+            height: 100px;
+            padding: 10px;
+            background-color: rgb(16, 192, 223);
+        }
+
+        header img {
+            width: 100px;
+            float: left;
+        }
+
+        header div {
+            font-size: 90px;
+            margin-left: 30%;
+        }
+
+
+        nav {
+            background-color: #111;
+            overflow: hidden;
+        }
+
+
+        nav a {
+            color: bisque;
+            text-decoration: none;
+            float: left;
+            padding: 1%;
+            font-size: 20px;
+        }
+
+
+        nav a:hover {
+            color: red;
+        }
+
+        nav input {
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 13px;
+            margin-right: 16px;
+            font-size: 17px;
+        }
+
+        nav button {
+            float: right;
+            padding: 0;
+            border: none;
+            background: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            background-color: #111;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 15%;
+            border-right: 4px solid black;
+            border-left: 4px solid black;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 90%;
+            overflow: auto;
+        }
+
+        .sidebar a {
+            font-size: 25px;
+            display: block;
+            color: black;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            color: red;
+            background-color: rgb(197, 196, 196);
+        }
+
+        .sidebar a:active {
+            color: rgb(216, 1, 1);
+            background-color: rgb(140, 202, 140);
+
+        }
+
+        .main {
+            width: 70%;
+            height: 100%;
+            background-color: rgb(242, 247, 176);
+            margin-left: 15.5%;
+            margin-right: 15%;
+            padding-bottom: 15px;
+            overflow: auto;
+            
+        }
+
+        .rightbar {
+
+            margin-left: 85%;
+            width: 15%;
+            border-left: 4px solid black;
+            background-color: #f1f1f1;
+            height: 90%;
+            overflow: auto;
+            position: fixed;
+        }
+    </style>
+
+    <!--- ***************************************************** CSS ************************************************************************ --->
+</head>
+
+
+<body>
+    <div class="header">
+        <header>
+            <img src="TSlogo.png" alt="" srcset="">
+            <div><b style="color: rgb(216, 1, 1);">Tech</b><b style="color: black;">Shala</b></div>
+
+        </header>
+
+
+        <!-- ***********************************************************************************************************************************-->
+        <nav>
+            <a href="#">Home</a>
+            <a href="tricolor3.html">Our Flag</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <button type="submit" onclick="return foo()"><b style="font-size: 30px;">&#128269</b></button>
+            <input type="text" placeholder="Search..">
+
+        </nav>
+    </div>
+
+    <!--***************************************************************************************************************************************-->
+    <div class="sidebar" id="left-sidebar">
+        <a href="#HTML">HTML</a>
+        <a href="#CSS">CSS</a>
+        <a href="#Java Script">Java Script</a>
+        <a href="#C++">C++</a>
+    </div>
+
+    <!--************************************************************************************************************************************-->
+    <div class="rightbar" id="right-sidebar">
+
+
+    </div>
+
+    <div class="main">
+
+        <div style="margin-left: 1%;margin-right: 2%;">
+            <h1>main doc</h1>
+            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit nihil, cupiditate voluptates
+                quas
+                explicabo quo exercitationem, porro voluptas et, necessitatibus error dolore repellendus omnis
+                voluptatibus
+                consectetur quos tenetur vel.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum fugiat animi ducimus temporibus odit autem
+                mollitia nostrum ipsam, veniam perspiciatis quae. Velit libero ipsum ducimus eius aspernatur, ad labore?
+                Unde ea
+                amet ipsum, nesciunt asperiores inventore! Veritatis voluptatem illum molestiae sapiente perferendis
+                deserunt
+                laboriosam quod enim maxime quos maiores praesentium sint quo, iusto accusantium inventore atque error
+                architecto asperiores numquam aliquam? Enim praesentium numquam eligendi commodi, quo facere non eveniet
+                possimus, voluptates ipsa sequi saepe obcaecati quos doloremque adipisci cum!</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo eos, cupiditate nobis
+                necessitatibus ad saepe ex, quaerat aperiam a ab expedita eum. Perspiciatis quisquam, reprehenderit
+                impedit
+                molestiae accusamus animi debitis ratione est nostrum repellendus non?</h3>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod officiis explicabo, consectetur
+                laudantium asperiores natus. Culpa iure iusto nihil? Odit, consequuntur est! Voluptatum debitis, ullam
+                ab
+                saepe voluptate ratione rerum aspernatur dolorum? Accusantium laborum ipsa nihil dignissimos deserunt,
+                alias
+                earum excepturi accusamus. Eligendi, sequi? Neque molestias officia architecto, exercitationem
+                obcaecati,
+                eveniet ex iure mollitia quia tempore tempora odit saepe sit! Molestias temporibus veniam, dolorum
+                dolorem
+                officiis possimus voluptate tempora iure ipsam excepturi voluptatum nulla ducimus perferendis eligendi
+                numquam consequatur!</h1>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ad velit sint numquam distinctio
+                commodi
+                hic deleniti dignissimos officia consequatur, incidunt nesciunt eaque a nihil voluptatem suscipit illo.
+                Dolores omnis beatae consequuntur aperiam eveniet, fugiat corporis dolor dignissimos itaque aut modi
+                reprehenderit ad sapiente. Nihil temporibus adipisci itaque rerum fugiat iure numquam, iste tempora
+                quibusdam magnam laboriosam. Harum doloribus at quos! Debitis, laudantium soluta et nisi officia sed
+                maiores
+                vero, quia iste quod sunt quaerat! Voluptates, facilis non nam labore esse at reprehenderit voluptate
+                aliquid ratione ipsum nisi doloremque ea.</h1>
+            <h1>abc Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laudantium ad impedit incidunt quidem
+                magnam consectetur voluptate, reiciendis distinctio est, fuga omnis illum in iusto cumque excepturi
+                nobis nulla vero? Voluptas adipisci ullam dolores?</h1>
+            <h1>xyc Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laudantium ad impedit incidunt quidem
+                magnam consectetur voluptate, reiciendis distinctio est, fuga omnis illum in iusto cumque excepturi
+                nobis nulla vero? Voluptas adipisci ullam dolores?</h1>
+
+        </div>
+    </div>
+
+
+</body>
